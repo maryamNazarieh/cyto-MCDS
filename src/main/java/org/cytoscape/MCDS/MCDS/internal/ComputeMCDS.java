@@ -142,7 +142,7 @@ public static ArrayList<ArrayList<Gene>> findBlackNeighbor(ArrayList<Gene> compo
 				    }
 				
 				set.add(gray_nw);
-				//set.get(i).get(0).set_black_degree(gray_nw.size()-1);
+				set.get(i).get(0).set_black_degree(gray_nw.size()-1);
 			}
 		}
 		Network.findMax(set);
